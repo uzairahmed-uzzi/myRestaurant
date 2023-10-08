@@ -3,10 +3,10 @@ import FastfoodRoundedIcon from "@mui/icons-material/FastfoodRounded";
 import { AppBar, Box, Tabs, Toolbar, Typography, Tab } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 const Header = () => {
-  useCallback(() => {
-    const [value, setValue] = useState(0);
+ 
+   const [value, setValue] = useState(0);
     const navigate = useNavigate();
-  }, []);
+ 
 
   const navigteTo = (e, link) => {
     e.preventDefault();
